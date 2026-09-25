@@ -1,0 +1,25 @@
+# === Wake Word ===
+openwakeword>=0.6.0
+piper-phonemize>=1.1.0
+webrtcvad>=2.0.10
+
+# === ML / Audio ===
+torch>=2.5.1
+torchaudio>=2.5.1
+onnxruntime>=1.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# === Speech-to-Text ===
+faster-whisper>=1.0.0
+
+# === Text-to-Speech ===
+edge-tts>=6.1.0
+
+# === Audio I/O ===
+sounddevice>=0.4.6
+pydub>=0.25.1
+
+# === API / Config ===
+requests>=2.31.0
+python-dotenv>=1.0.0
