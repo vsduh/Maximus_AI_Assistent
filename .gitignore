@@ -1,0 +1,43 @@
+# === Секреты ===
+.env
+*.env
+!.env.example
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# === Модели (тяжёлые) ===
+models/*.onnx
+models/*.tflite
+models/*.pt
+models/*.bin
+!models/.gitkeep
+
+# === Обучение (промежуточные данные) ===
+training_data/
+output_*/
+*.wav
+*.mp3
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === ОС ===
+.DS_Store
+Thumbs.db
+desktop.ini
