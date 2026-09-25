@@ -1,0 +1,28 @@
+# Конфиг тренировки wake word «Максимус» для openWakeWord.
+
+target_word: "Maksimus"
+
+# Пути к данным
+positive_data_dir: "training_data/Maksimus"
+negative_data_dir: null
+background_data_dir: null
+rir_data_dir: null
+
+# Параметры обучения
+number_of_examples: 1000
+number_of_training_steps: 10000
+false_activation_penalty: 1500
+batch_size: 8
+
+target_accuracy: 0.7
+target_recall: 0.5
+
+# Вывод
+output_dir: "models"
+model_name: "maksimus"
+
+# Архитектура
+model_type: "dnn"
+layer_size: 32
+
+random_seed: 42

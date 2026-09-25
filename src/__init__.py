@@ -1,0 +1,1 @@
+"""Maximus AI Assistant — модули ассистента."""
